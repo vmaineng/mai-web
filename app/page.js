@@ -2,16 +2,18 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-black">
       <Navbar />
-    <div class="container mt-24 mx-auto px-12 py-4">
-    <Banner />
-    <About />
-    <Projects />
-    </div>
+      <div class="container mt-24 mx-auto px-12 py-4">
+        <Banner />
+        <About />
+        <Projects />
+      </div>
+      <Footer />
     </main>
   );
 }
