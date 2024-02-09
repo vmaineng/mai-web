@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
+import Link from "next/link";
 
 //functional component
 
@@ -11,7 +12,7 @@ const Banner = () => {
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left justify-self-start">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-pink-200">
            Hello, I'm{" "}
            </span>
            <br/>
@@ -33,10 +34,14 @@ const Banner = () => {
     />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Happy that you're here!
+           Software Engineer with experience in JavaScript, React, MongoDB, Express, and Python.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white"> Reach Me</button>
+            <Link 
+            href="/#about"
+            className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-300 via-blue-300 to-pink-200 hover:bg-slate-200 text-white">
+               Learn more! 
+               </Link>
         </div>
         </div>
        

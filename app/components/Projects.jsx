@@ -57,7 +57,7 @@ const Projects = () => {
   ];
 
   return (
-    <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+    <h2 className="text-center text-6xl font-bold text-white mt-4 mb-10 md:mb-20">
       Mai's Projects
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
         {projectsData.map((project) => (
