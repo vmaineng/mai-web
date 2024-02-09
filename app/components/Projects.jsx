@@ -6,7 +6,7 @@ const Projects = () => {
     {
       id: 1,
       title: "Gridiron Survivor",
-      imgURL: "/images/football.png",
+      image: "/images/projects/1.png",
       stack: "Tech Stack: React, TypeScript, Next, Jest, React Library, AWS",
       description:
         "May the best win! This application will be created with user authentication & CRUD functionalities",
@@ -16,7 +16,7 @@ const Projects = () => {
     {
       id: 2,
       title: "Resource Library",
-      imgURL: "/images/projects/resource.png",
+      image: "/images/projects/resource.png",
       stack:
         "Tech Stack: React, Javascript, Chakra UI, Next, MongoDB, Expressjs, Nodejs",
       description:
@@ -27,7 +27,7 @@ const Projects = () => {
     {
       id: 3,
       title: "Fri-Yay!",
-      imgURL: "/images/projects/movie.png",
+      image: "/images/projects/movie.png",
       stack:
         "Tech Stack: React, Javascript, Chakra UI, MongoDB, Expressjs, Nodejs and the Movie Database API",
       description: "Binge the night away with exclusive movies and films!",
@@ -37,7 +37,7 @@ const Projects = () => {
     {
       id: 4,
       title: "Habit-sation",
-      imgURL: "/images/projects/habit1.png",
+      image: "/images/projects/habit1.png",
       stack:
         "Tech Stack: React, Javascript, Chakra UI, MongoDB, Expressjs, Nodejs and the Movie Database API",
       description: "Binge the night away with exclusive movies and films!",
@@ -47,7 +47,7 @@ const Projects = () => {
     {
       id: 5,
       title: "Tiny Task",
-      imgURL: "/images/projects/tiny.png",
+      image: "/images/projects/tiny.png",
       stack: "Tech Stack: React, Javascript, Chakra UI, Ruby, Ruby on Rails",
       description:
         "A kids activities management application with user authentication & CRUD functionalities",
