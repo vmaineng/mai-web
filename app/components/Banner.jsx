@@ -13,7 +13,7 @@ const Banner = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left justify-self-start">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-pink-200">
-           Hello, I&apos;m{" "}
+           Hello, I&apos;m
            </span>
            <br/>
            <TypeAnimation
