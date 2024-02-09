@@ -1,7 +1,7 @@
 "use client"; //turns it into a client component
 import React, { useState } from "react";
 import Link from "next/link";
-import NavLinks from "./NavLinks";
+import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
@@ -12,7 +12,7 @@ const navLinks = [
   },
   {
     title: "Projects",
-    path: "#projects",
+    path: "#projects", //scroll to a specific ID
   },
 ];
 
@@ -29,8 +29,8 @@ const Navbar = () => {
           className="text-xl md:text-5xl text-white font-semibold"
         >
           
-          {" "}
-          MAI VANG - SWE{" "}
+          
+          MAI VANG - SWE
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
@@ -53,7 +53,7 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLinks href={link.path} title={link.title} />
+                <NavLink href={link.path} title={link.title} />
               </li>
             ))}
           </ul>

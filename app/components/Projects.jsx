@@ -67,10 +67,10 @@ const Projects = () => {
   };
 
   return (
-    <section ref={ref}>
+    <section id="projects">
       <h2 className="text-center text-6xl font-bold text-white mt-4 mb-10 md:mb-20">
         Mai's Projects
-        <ul className="grid md:grid-cols-3 gap-8 md:gap-12">
+        <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
           {projectsData.map((project, index) => (
             <motion.li
               key={index}
