@@ -66,6 +66,8 @@ const Projects = () => {
             title={project.title}
             description={project.description}
             imgUrl={project.image}
+            github={project.github}
+            demo={project.demo}
           />
         ))}
       </div>
