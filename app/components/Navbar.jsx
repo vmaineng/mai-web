@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import NavLinks from "./NavLinks";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import MenuOverlay from "./MenuOverlay";
 
 const Navbar = () => {
   const [navbarOpen, setnavbarOpen] = useState(false);
@@ -58,7 +59,9 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      {navbarOpen ? <MenuOverlay links={navLinks} /> : null} 
     </nav>
+    //shows the menu links for low opacity
   );
 };
 
