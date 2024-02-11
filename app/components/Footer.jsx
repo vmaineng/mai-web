@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer border border-t-[#33353F] border-l-transparent border-r-transparent text-white">
       <div className="container p-12 flex justify-between">
         <span>Mai Vang - SWE</span>
-        <p className="text-slate-700">&copy;{new Date().getFullYear()}. All rights reserved</p>
+        <p className="text-slate-200">&copy;{new Date().getFullYear()}. All rights reserved</p>
       </div>
     </footer>
   );
