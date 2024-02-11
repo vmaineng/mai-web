@@ -7,7 +7,7 @@ const About = () => {
       <div className="md: grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/photo.png" width={500} height={500} />
         <div>
-          <h2 className="text-4xl font-bold text-white mb-4">About Mai</h2>
+          <h2 className="text-4xl font-bold bg-gradient-to-br from-blue-300 via-blue-300 to-pink-200 hover:bg-slate-200 text-white mb-4">About Mai</h2>
           <p className="text-base lg:text-lg">
             {" "}
             Enthuastic, fun, and driven Software Engineer specializing in
