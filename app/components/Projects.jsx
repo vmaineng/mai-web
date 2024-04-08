@@ -27,16 +27,6 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Fri-Yay!",
-    image: "/images/projects/movie.png",
-    stack:
-      "Tech Stack: React, Javascript, Chakra UI, MongoDB, Expressjs, Nodejs and the Movie Database API",
-    description: "Binge the night away with exclusive movies and films!",
-    github: "https://github.com/vmaineng/friyay",
-    demo: "https://github.com/vmaineng/friyay",
-  },
-  {
-    id: 4,
     title: "Habit-sation",
     image: "/images/projects/habit1.png",
     stack:
@@ -46,7 +36,7 @@ const projectsData = [
     demo: "https://github.com/vmaineng/friyay",
   },
   {
-    id: 5,
+    id: 4,
     title: "Tiny Task",
     image: "/images/projects/tiny.png",
     stack: "Tech Stack: React, Javascript, Chakra UI, Ruby, Ruby on Rails",
