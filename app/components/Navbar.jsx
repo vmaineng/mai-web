@@ -18,6 +18,10 @@ const navLinks = [
     title: "Presentations",
     path: "#presentations", //scroll to a specific ID
   },
+  {
+    title: "Blogs",
+    path: "#blogs", //scroll to a specific ID
+  },
 ];
 
 const Navbar = () => {

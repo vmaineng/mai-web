@@ -4,6 +4,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Presentations from "./components/Presentations";
+import Articles from "./components/Articles";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
         <Banner />
         <About />
         <Projects />
-        <Presentations /> 
+        <Presentations />
+        <Articles />
       </div>
       <Footer />
     </main>

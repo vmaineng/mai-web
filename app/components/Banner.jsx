@@ -11,9 +11,9 @@ const Banner = () => {
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left justify-self-start">
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-pink-200">
-           Hello, I&apos;m
+           Hello, I&apos;m a
            </span>
            <br/>
            <TypeAnimation
@@ -34,7 +34,7 @@ const Banner = () => {
     />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-           Software Engineer with experience in JavaScript, React, MongoDB, Express, and Python.
+           Software Engineer with experience in JavaScript/ TypeScript, React, MongoDB, Express, and Zustand.
           </p>
           <div>
             <Link 

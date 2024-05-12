@@ -16,9 +16,11 @@ const Footer = () => {
           <Link href="https://github.com/vmaineng">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
+        
+
           <Link href="https://www.linkedin.com/in/mai-vang-swe/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
-          </Link>
+          </Link> 
         </div>
      
      

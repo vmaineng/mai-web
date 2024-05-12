@@ -25,16 +25,16 @@ const projectsData = [
     github: "https://github.com/hjkmines/resource_library",
     demo: "https://github.com/hjkmines/resource_library",
   },
-  {
-    id: 3,
-    title: "Habit-sation",
-    image: "/images/projects/habit1.png",
-    stack:
-      "Tech Stack: React, Javascript, Chakra UI, MongoDB, Expressjs, Nodejs and the Movie Database API",
-    description: "Binge the night away with exclusive movies and films!",
-    github: "https://github.com/vmaineng/friyay",
-    demo: "https://github.com/vmaineng/friyay",
-  },
+  // {
+  //   id: 3,
+  //   title: "Habit-sation",
+  //   image: "/images/projects/habit1.png",
+  //   stack:
+  //     "Tech Stack: React, Javascript, Chakra UI, MongoDB, Expressjs, Nodejs and the Movie Database API",
+  //   description: "Binge the night away with exclusive movies and films!",
+  //   github: "https://github.com/vmaineng/friyay",
+  //   demo: "https://github.com/vmaineng/friyay",
+  // },
   {
     id: 4,
     title: "Tiny Task",
